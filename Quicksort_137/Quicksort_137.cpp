@@ -85,7 +85,18 @@ void q_sort(int low, int high)
     //sort the list on the right of pivot quick sort
     q_sort(j + 1, high);       //langkah Algortima no.13
 }
-
+void display () 
+{
+    cout << "-----------------------" << endl;
+    cout << "Sorted Array" << endl;
+    cout << "-----------------------" << endl;
+    for (int i=0;i<n;i++) 
+    {
+        cout << arr[i] < , " ";
+    }
+    cout << "\n\nNumber of comparasions: "<<cmp_count<< endl;
+    cout << "Number of data movements: " << mov_count << endl;
+}
 int main()
 {
     std::cout << "Hello World!\n";

@@ -1,7 +1,11 @@
-// Quicksort_137.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
+
+int arr[20]; //array of integers to hold values
+int cmp_count = 0;  //number of comparations
+int mov_count = 0;  //number of data movements
+int n;
+
 
 int main()
 {
